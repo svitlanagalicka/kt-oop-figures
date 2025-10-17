@@ -9,7 +9,7 @@ class RightTriangle(val firstLeg: Double, val secondLeg: Double, override val co
     override fun getArea(): Double = PART * firstLeg * secondLeg
 
     override fun draw() {
-        println("Figure: right triangle, area: ${getArea()}, "
+        println("Figure: right triangle, area: ${getArea()} sq. units, "
                 + "firstLeg: $firstLeg units, secondLeg: $secondLeg units, color: $color")
     }
 }

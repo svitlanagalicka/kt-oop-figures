@@ -14,7 +14,7 @@ class IsoscelesTrapezoid(
     override fun getArea(): Double = HALF * (base1 + base2) * height
 
     override fun draw() {
-        println("Figure: isosceles trapezoid, area: ${getArea()}, "
+        println("Figure: isosceles trapezoid, area: ${getArea()} sq. units, "
                 + "base1: $base1 units, base2: $base2 units, height: $height units, color: $color")
     }
 }
