@@ -5,18 +5,18 @@ import mate.academy.figures.Square
 import mate.academy.figures.Rectangle
 import mate.academy.figures.IsoscelesTrapezoid
 import mate.academy.figures.RightTriangle
-import mate.academy.model.Color
 import mate.academy.model.Figure
+import mate.academy.model.Color
 import kotlin.random.Random
 
-const val FROM_INDEX = 1.0
-const val TO_INDEX = 10.0
-const val FIGURES_NUMBER = 5
-const val DEFAULT_RADIUS = 10.0
-const val SQUARE_INDEX = 0
-const val RECTANGLE_INDEX = 1
-const val RIGHT_TRIANGLE_INDEX = 2
-const val CIRCLE_INDEX = 3
+private const val FROM_INDEX = 1.0
+private const val TO_INDEX = 10.0
+private const val FIGURES_NUMBER = 5
+private const val DEFAULT_RADIUS = 10.0
+private const val SQUARE_INDEX = 0
+private const val RECTANGLE_INDEX = 1
+private const val RIGHT_TRIANGLE_INDEX = 2
+private const val CIRCLE_INDEX = 3
 
 class FigureSupplier {
     private val colorSupplier = ColorSupplier()

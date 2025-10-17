@@ -3,7 +3,7 @@ package mate.academy.figures
 import mate.academy.model.Color
 import mate.academy.model.Figure
 
-const val HALF = 0.5
+private const val HALF = 0.5
 
 class IsoscelesTrapezoid(
     val base1: Double,

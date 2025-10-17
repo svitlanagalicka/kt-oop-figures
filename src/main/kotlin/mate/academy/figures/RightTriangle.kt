@@ -3,7 +3,7 @@ package mate.academy.figures
 import mate.academy.model.Color
 import mate.academy.model.Figure
 
-const val PART = 0.5
+private const val PART = 0.5
 
 class RightTriangle(val firstLeg: Double, val secondLeg: Double, override val color: Color) : Figure {
     override fun getArea(): Double = PART * firstLeg * secondLeg
