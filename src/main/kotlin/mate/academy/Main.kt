@@ -2,8 +2,9 @@ package mate.academy
 
 import mate.academy.model.Figure
 import mate.academy.service.FigureSupplier
+import javax.management.Query.TIMES
 
-private const val FIGURE_COUNT = 6
+private const val FIGURE_COUNT = TIMES * 2
 
 fun main() {
     val figureSupplier = FigureSupplier()
